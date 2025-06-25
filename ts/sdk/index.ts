@@ -34,6 +34,9 @@ export const BATCH_SEED = Buffer.from('batch');
  * OnionGill SDK - Gill-based interface for OnionUSD-P operations
  */
 export class OnionGill {
+  // Export constants as static properties
+  static readonly ONIONUSD_PROGRAM_ID = ONIONUSD_PROGRAM_ID;
+  static readonly TOKEN_PROGRAM_ID = TOKEN_PROGRAM_ID;
   
   /**
    * Connect to a Solana cluster and return a Gill Builder

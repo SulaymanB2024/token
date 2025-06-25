@@ -1,0 +1,10 @@
+{
+  "network": "localnet",
+  "onionusd_mint": "11111111111111111111111111111113",
+  "reserve_vault": "D2k2fHr9giecDKYK73f1e1n7s8v1bGPjTpucAGf7LKaD",
+  "payer": "97Ags9JQce9cNYbxUtQu6mysX1QQ9b5cizRLyoF9ij6G",
+  "program_id": "Fv2FHYdUGBj3kKz23zHcPfwZHR5sMmH2NftD2V7U46fq",
+  "decimals": 6,
+  "initial_supply": 100000,
+  "timestamp": "2025-06-25T17:45:08.504Z"
+}

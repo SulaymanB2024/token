@@ -1,22 +1,23 @@
 [package]
 name = "onionusdp"
 version = "0.1.0"
-description = "OnionUSD-P: Payroll-enabled stablecoin built on SPL Token"
+description = "OnionUSD-P: Payroll-enabled stablecoin program"
 edition = "2021"
 license = "MIT"
-repository = "https://github.com/solana-program/token"
+repository = "https://github.com/solana-labs/solana-program-library"
 
 [lib]
 crate-type = ["cdylib", "lib"]
 name = "onionusdp"
 
 [features]
+default = []
+cpi = ["no-entrypoint"]
 no-entrypoint = []
 no-idl = []
-no-log-ix-name = []
-cpi = ["no-entrypoint"]
 future-yield = []
-default = []
+custom-heap = []
+custom-panic = []
 
 [dependencies]
 bytemuck = { version = "1.20.0", features = ["derive"] }
