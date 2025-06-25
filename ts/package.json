@@ -1,0 +1,40 @@
+{
+  "name": "@solana/onionusd-workspace",
+  "version": "0.1.0",
+  "description": "OnionUSD-P TypeScript SDK and CLI tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint . --ext .ts,.js",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@solana/gill": "^1.0.0",
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.95.0",
+    "yargs": "^17.7.2",
+    "dotenv": "^16.4.5",
+    "csv-parser": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "@types/node": "^20.12.7",
+    "@types/jest": "^29.5.12",
+    "@types/yargs": "^17.0.32",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "prettier": "^3.2.5"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.ts"],
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+  }
+}
